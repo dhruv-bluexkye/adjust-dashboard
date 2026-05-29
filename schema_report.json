@@ -1,0 +1,1962 @@
+{
+  "4lemco7zv6v4_2026-05-16T030000_77ad8f64e15055b563fd42f0d0c5d832_c35750.csv.gz": {
+    "{activity_kind}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "event"
+      ]
+    },
+    "{app_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "com.sixteenarena.app"
+      ]
+    },
+    "{app_name_dashboard}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "16Arena"
+      ]
+    },
+    "{app_version}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1.0.16",
+        "1.0.17",
+        "1.0.18"
+      ]
+    },
+    "{app_version_raw}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1.0.16",
+        "1.0.17",
+        "1.0.18"
+      ]
+    },
+    "{app_version_short}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1.0.16",
+        "1.0.17",
+        "1.0.18"
+      ]
+    },
+    "{connection_type}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Cellular",
+        "Cable/DSL"
+      ]
+    },
+    "{cpu_type}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "arm64-v8a"
+      ]
+    },
+    "{created_at}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778901286",
+        "1778901424",
+        "1778900749"
+      ]
+    },
+    "{created_at_hour}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778900400"
+      ]
+    },
+    "{created_at_milli}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778901286000",
+        "1778901424000",
+        "1778900749000"
+      ]
+    },
+    "{device_atlas_id}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "90227445",
+        "84947428",
+        "84872474"
+      ]
+    },
+    "{device_manufacturer}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Vivo",
+        "Motorola"
+      ]
+    },
+    "{engaged_ad_based}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{hardware_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "W1VTS36H.22-20-2",
+        "PD2443CF_EX_A_15.0.39.0.W30",
+        "PD2456IF_EX_A_16.1.13.1.W30"
+      ]
+    },
+    "{impression_based}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{install_finish_time}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1776661850",
+        "1777571433",
+        "1777454273"
+      ]
+    },
+    "{first_tracker}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{first_tracker_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{installed_at}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1777571443",
+        "1777454292",
+        "1776661864"
+      ]
+    },
+    "{installed_at_hour}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1776661200",
+        "1777568400",
+        "1777453200"
+      ]
+    },
+    "{is_organic}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1"
+      ]
+    },
+    "{is_s2s}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{last_session_time}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778901423",
+        "1778901285",
+        "1778900749"
+      ]
+    },
+    "{network_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{network_tracker}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{random}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "287348540",
+        "822445029",
+        "392444662"
+      ]
+    },
+    "{received_at}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778901286",
+        "1778901424",
+        "1778900749"
+      ]
+    },
+    "{san_engagement_times}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "{}"
+      ]
+    },
+    "{app_id}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "com.sixteenarena.app"
+      ]
+    },
+    "{store}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "google"
+      ]
+    },
+    "{tracker_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{tracker}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{adid}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "3ce415d28148ad4c4dd85f8f5fba1388",
+        "19f997cdffcf51ac397e40a228ff7576",
+        "8c8eccd8397eca1efa1ee8dd3d71b660"
+      ]
+    },
+    "{city}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Navi Mumbai",
+        "Jammu",
+        "Pune"
+      ]
+    },
+    "{country}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "in"
+      ]
+    },
+    "{country_subdivision}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Jammu and Kashmir",
+        "Maharashtra"
+      ]
+    },
+    "{device_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "motog67power5G",
+        "Y195G",
+        "T45G"
+      ]
+    },
+    "{device_type}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "phone"
+      ]
+    },
+    "{environment}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "production"
+      ]
+    },
+    "{event_cost_id}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0103086481ddc80433800830783f6a07df0d8c8eccd8397eca1efa1ee8dd3d71b660",
+        "0103086481ddc80433800830783f6a07e1b019f997cdffcf51ac397e40a228ff7576",
+        "0103086481ddc80433800830783f6a07e1263ce415d28148ad4c4dd85f8f5fba1388"
+      ]
+    },
+    "{event_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "app_open"
+      ]
+    },
+    "{event}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "29su2n"
+      ]
+    },
+    "{lifetime_session_count}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "11",
+        "27",
+        "14"
+      ]
+    },
+    "{gps_adid}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "a49a19ce-cb35-4214-95b8-cc1bfe243e2c",
+        "2ada152e-b59b-4ab8-b251-f0328e312865",
+        "53225424-0698-4230-bd45-dc6e9e90a021"
+      ]
+    },
+    "{gps_adid_md5}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "580125c2666881f5e5e61b82958f64cb",
+        "a999b04a99b1029e560787510e9f1b46",
+        "c8a91f0961d9241d587fee5ed179ea32"
+      ]
+    },
+    "{idfa||gps_adid}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "a49a19ce-cb35-4214-95b8-cc1bfe243e2c",
+        "2ada152e-b59b-4ab8-b251-f0328e312865",
+        "53225424-0698-4230-bd45-dc6e9e90a021"
+      ]
+    },
+    "{idfa||gps_adid||fire_adid}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "a49a19ce-cb35-4214-95b8-cc1bfe243e2c",
+        "2ada152e-b59b-4ab8-b251-f0328e312865",
+        "53225424-0698-4230-bd45-dc6e9e90a021"
+      ]
+    },
+    "{ip_address}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "157.48.26.46",
+        "103.173.25.209",
+        "106.216.251.4"
+      ]
+    },
+    "{is_default_tracker}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_imported}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_probabilistic}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_reattributed}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{isp}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Airtel",
+        "Hightec Network Solutions",
+        "Jio"
+      ]
+    },
+    "{language}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "en"
+      ]
+    },
+    "{nonce}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "o14veki07",
+        "4ye18739s",
+        "wseyysvtu"
+      ]
+    },
+    "{os_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "android"
+      ]
+    },
+    "{os_version}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "16",
+        "15"
+      ]
+    },
+    "{postal_code}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "410218",
+        "411006",
+        "180001"
+      ]
+    },
+    "{push_token}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "dDMaSrEUTY6KCYlN98Pnrr:APA91bH_2dItb7sYqWfraBz4HJrTR8pO0uPJr4wcLAiBdhB3QAQPZoKnLZNy59ScqQ8QNiPD3lpFCgWM9QxqOou8RO0-OcXw5KkhsVSeVaYsziKnFyQZHJE",
+        "cV0h846yRH-tYNxzTuL5MG:APA91bG9PHGPZNGUjv5QsNOKOI0cG-jek6irS3pBgoJPbsDlPwBRwzxh4cOxW263kgySA-OhfkoDkAIGJM3iVyRBmXrvgOCdZ586xbNEKrUeMymvSGXFm0s",
+        "dlXeRKYqS1S4b_BGZKl2Mn:APA91bGY3oJWGlWU5an6QrbvRI3q5TBiawAFf102L5JbGkp_60BftqtHi-Uex0HArWaXWWFD2VUJZg6ntK4lR8IgUSnHkQUkmj7bhldLfqNTwIzTDPRyvYQ"
+      ]
+    },
+    "{random_user_id}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "90245edb3b1f2937ed07b31769621ffb7030638a",
+        "599fd412af0befabe6d9346558a1faf0bef3b741",
+        "373e5090bf5934e536f1392b540e3e3d290ebcbd"
+      ]
+    },
+    "{reftag}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "o0WkLIaPPbch4",
+        "oJ7mnbgzQ8k8E",
+        "ocJk6Dr3wcZBl"
+      ]
+    },
+    "{region}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "in",
+        "us"
+      ]
+    },
+    "{sdk_version}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "flutter5.6.0@android5.6.0"
+      ]
+    },
+    "{session_count}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "11",
+        "27",
+        "14"
+      ]
+    },
+    "{third_party_sharing_disabled}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{time_spent}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "2",
+        "1"
+      ]
+    },
+    "{timezone}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "UTC+0530"
+      ]
+    },
+    "{tracking_enabled}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1"
+      ]
+    },
+    "{tracking_limited}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{user_agent}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Dalvik/2.1.0 (Linux; U; Android 16; V2502 Build/BP2A.250605.031.A3_V000L1)",
+        "Dalvik/2.1.0 (Linux; U; Android 15; V2432 Build/AP3A.240905.015.A2_V000L1)",
+        "Dalvik/2.1.0 (Linux; U; Android 16; moto g67 power 5G Build/W1VTS36H.22-20-2)"
+      ]
+    },
+    "{mcc}": {
+      "type": "integer",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "404"
+      ]
+    },
+    "{mnc}": {
+      "type": "integer",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "90"
+      ]
+    }
+  },
+  "4lemco7zv6v4_2026-05-16T040000_77ad8f64e15055b563fd42f0d0c5d832_c35750.csv.gz": {
+    "{activity_kind}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "event"
+      ]
+    },
+    "{app_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "com.sixteenarena.app"
+      ]
+    },
+    "{app_name_dashboard}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "16Arena"
+      ]
+    },
+    "{app_version}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1.0.17",
+        "1.0.16"
+      ]
+    },
+    "{app_version_raw}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1.0.17",
+        "1.0.16"
+      ]
+    },
+    "{app_version_short}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1.0.17",
+        "1.0.16"
+      ]
+    },
+    "{connection_type}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Cellular"
+      ]
+    },
+    "{cpu_type}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "arm64-v8a"
+      ]
+    },
+    "{created_at}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778905699",
+        "1778904593",
+        "1778905728"
+      ]
+    },
+    "{created_at_hour}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778904000"
+      ]
+    },
+    "{created_at_milli}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778905728000",
+        "1778904593000",
+        "1778905699000"
+      ]
+    },
+    "{device_atlas_id}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "69512381",
+        "80734019"
+      ]
+    },
+    "{device_manufacturer}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "OnePlus",
+        "Realme"
+      ]
+    },
+    "{engaged_ad_based}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{hardware_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "RMX5003_16.0.3.500(EX01)",
+        "CPH2413_15.0.0.1603(EX01)"
+      ]
+    },
+    "{impression_based}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{install_finish_time}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1777652032",
+        "1778138104"
+      ]
+    },
+    "{first_tracker}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{first_tracker_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{installed_at}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1777652055",
+        "1778138213"
+      ]
+    },
+    "{installed_at_hour}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1777651200",
+        "1778137200"
+      ]
+    },
+    "{is_organic}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1"
+      ]
+    },
+    "{is_s2s}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{last_session_time}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778905699",
+        "1778904593"
+      ]
+    },
+    "{network_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{network_tracker}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{random}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "036086381",
+        "687106617",
+        "054237504"
+      ]
+    },
+    "{received_at}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1778905728",
+        "1778904593",
+        "1778905700"
+      ]
+    },
+    "{san_engagement_times}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "{}"
+      ]
+    },
+    "{app_id}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "com.sixteenarena.app"
+      ]
+    },
+    "{store}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "google"
+      ]
+    },
+    "{tracker_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{tracker}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{adid}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1f3b555d6bebc51b03a5d7361fdda3bd",
+        "6a5da6d46ce522e4332a6452cf64fd9a"
+      ]
+    },
+    "{city}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Gangtok",
+        "Pune"
+      ]
+    },
+    "{country}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "in"
+      ]
+    },
+    "{country_subdivision}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Sikkim",
+        "Maharashtra"
+      ]
+    },
+    "{device_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Narzo70Turbo",
+        "10RT"
+      ]
+    },
+    "{device_type}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "phone"
+      ]
+    },
+    "{environment}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "production"
+      ]
+    },
+    "{event_cost_id}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0103086481ddc80433800830783f6a07f2636a5da6d46ce522e4332a6452cf64fd9a",
+        "0103086481ddc80433802cdb97486a07f2806a5da6d46ce522e4332a6452cf64fd9a",
+        "0103086481ddc80433800830783f6a07ee111f3b555d6bebc51b03a5d7361fdda3bd"
+      ]
+    },
+    "{event_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "repeat_signup_complete_email",
+        "app_open"
+      ]
+    },
+    "{event}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "29su2n",
+        "cg2l3c"
+      ]
+    },
+    "{lifetime_session_count}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "2",
+        "39"
+      ]
+    },
+    "{gps_adid}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "61c6ee1f-c25b-401e-8023-246a86f6f949",
+        "0dd3119b-6dda-4360-ba69-c2fdae1a80dd"
+      ]
+    },
+    "{gps_adid_md5}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "8000d92c9694a069e642a53f73ce5a50",
+        "9c81844067d699bd81588cf95ac935a1"
+      ]
+    },
+    "{idfa||gps_adid}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "61c6ee1f-c25b-401e-8023-246a86f6f949",
+        "0dd3119b-6dda-4360-ba69-c2fdae1a80dd"
+      ]
+    },
+    "{idfa||gps_adid||fire_adid}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "61c6ee1f-c25b-401e-8023-246a86f6f949",
+        "0dd3119b-6dda-4360-ba69-c2fdae1a80dd"
+      ]
+    },
+    "{ip_address}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "152.59.162.106",
+        "117.99.249.55"
+      ]
+    },
+    "{is_default_tracker}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_imported}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_probabilistic}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_reattributed}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{isp}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Airtel",
+        "Jio"
+      ]
+    },
+    "{language}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "en"
+      ]
+    },
+    "{mcc}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "404",
+        "405"
+      ]
+    },
+    "{mnc}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "90",
+        "840"
+      ]
+    },
+    "{nonce}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "biqij26sk",
+        "caanhe05z",
+        "80jnvg8hq"
+      ]
+    },
+    "{os_name}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "android"
+      ]
+    },
+    "{os_version}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "16",
+        "15"
+      ]
+    },
+    "{postal_code}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "411017",
+        "737101"
+      ]
+    },
+    "{push_token}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "ffSq-AFkTS2D6VQFNSGBL7:APA91bEk0kLuxezCJbD3VfE3KziXWeVHFOcnGGZGfFmc2Rh8pX_wy9G-HY4M7GExts1smZVnXgTBC-uysl09D6jNURQeKmsoPOQnesMgqlULil1IAjmPewI",
+        "d3a7glZoR3OpoUMtwSG-c5:APA91bHMZr6CqzQWShmErXOWy0Ix6LI5_3Zg6rrd4vu087369_LPhUsDXzzHaQUQzejY-FBkmTOaR-lZfGUiBm2wUnfReqyiBv4cRKKJWp7vqeTbQQADnuQ"
+      ]
+    },
+    "{random_user_id}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "d8c4b42b9409d8de0fca6026fa48a8b126e69a04",
+        "781857ae466442b44e8c04e3f0f4e0e7c34df06e"
+      ]
+    },
+    "{reftag}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "oO3PAZ9EXNCk3",
+        "oZujsuRE7VWa1"
+      ]
+    },
+    "{region}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "gb"
+      ]
+    },
+    "{sdk_version}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "flutter5.6.0@android5.6.0"
+      ]
+    },
+    "{session_count}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "2",
+        "39"
+      ]
+    },
+    "{third_party_sharing_disabled}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{time_spent}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "19",
+        "1"
+      ]
+    },
+    "{timezone}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "UTC+0530"
+      ]
+    },
+    "{tracking_enabled}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "1"
+      ]
+    },
+    "{tracking_limited}": {
+      "type": "integer",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{user_agent}": {
+      "type": "string",
+      "non_empty_rows": 3,
+      "sample_values": [
+        "Dalvik/2.1.0 (Linux; U; Android 16; RMX5003 Build/UKQ1.231108.001)",
+        "Dalvik/2.1.0 (Linux; U; Android 15; CPH2413 Build/AP3A.240617.008)"
+      ]
+    }
+  },
+  "4lemco7zv6v4_2026-05-15T100000_77ad8f64e15055b563fd42f0d0c5d832_c35750.csv.gz": {
+    "{activity_kind}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "event",
+        "install"
+      ]
+    },
+    "{app_name}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "com.sixteenarena.app",
+        "com.sixteenarena.iosapp"
+      ]
+    },
+    "{app_name_dashboard}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "16Arena"
+      ]
+    },
+    "{app_version}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "27",
+        "1.0.17",
+        "1.0.18",
+        "1.0.16",
+        "1.0.13"
+      ]
+    },
+    "{app_version_raw}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "27",
+        "1.0.17",
+        "1.0.18",
+        "1.0.16",
+        "1.0.13"
+      ]
+    },
+    "{app_version_short}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1.0.16",
+        "1.0.17",
+        "1.0.18",
+        "1.0.13"
+      ]
+    },
+    "{connection_type}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Cellular",
+        "Cable/DSL"
+      ]
+    },
+    "{cpu_type}": {
+      "type": "string",
+      "non_empty_rows": 39,
+      "sample_values": [
+        "arm64-v8a"
+      ]
+    },
+    "{created_at}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1778842232",
+        "1778839790",
+        "1778841531",
+        "1778841508",
+        "1778841049"
+      ]
+    },
+    "{created_at_hour}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1778839200"
+      ]
+    },
+    "{created_at_milli}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1778841095000",
+        "1778842360000",
+        "1778842062000",
+        "1778839718000",
+        "1778840296000"
+      ]
+    },
+    "{device_atlas_id}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "67903413",
+        "82995059",
+        "80531332",
+        "67872571",
+        "86307759"
+      ]
+    },
+    "{device_manufacturer}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Vivo",
+        "Motorola",
+        "OnePlus",
+        "iQOO",
+        "Nothing"
+      ]
+    },
+    "{engaged_ad_based}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{hardware_name}": {
+      "type": "string",
+      "non_empty_rows": 39,
+      "sample_values": [
+        "RMX3870_16.0.5.700(EX01)",
+        "W1VNS36H.60-82-1",
+        "BP2A.250605.031.A3.A336EDXSHGZB6",
+        "PD2346CF_EX_A_16.2.11.0.W30",
+        "RMX3867_16.0.5.700(EX01)"
+      ]
+    },
+    "{impression_based}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{install_finish_time}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1778726329",
+        "1778778324",
+        "1778576996",
+        "1778839691",
+        "1778147625"
+      ]
+    },
+    "{first_tracker}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{first_tracker_name}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{installed_at}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1778173268",
+        "1778147643",
+        "1778841662",
+        "1778779898",
+        "1776530623"
+      ]
+    },
+    "{installed_at_hour}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1775545200",
+        "1776682800",
+        "1775732400",
+        "1778173200",
+        "1777518000"
+      ]
+    },
+    "{is_organic}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1"
+      ]
+    },
+    "{is_s2s}": {
+      "type": "integer",
+      "non_empty_rows": 40,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{last_session_time}": {
+      "type": "integer",
+      "non_empty_rows": 40,
+      "sample_values": [
+        "1778841261",
+        "1778841060",
+        "1778841662",
+        "1778840680",
+        "1778841506"
+      ]
+    },
+    "{network_name}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{network_tracker}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{random}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "716319965",
+        "085915158",
+        "971289617",
+        "027927125",
+        "645516934"
+      ]
+    },
+    "{received_at}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1778842232",
+        "1778841531",
+        "1778841508",
+        "1778839909",
+        "1778841049"
+      ]
+    },
+    "{san_engagement_times}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "{}"
+      ]
+    },
+    "{app_id}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "com.sixteenarena.app",
+        "6759313578"
+      ]
+    },
+    "{store}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "google",
+        "itunes"
+      ]
+    },
+    "{tracker_name}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Organic"
+      ]
+    },
+    "{tracker}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1zrrq7vu"
+      ]
+    },
+    "{adid}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "dbb9ced9c6c700201e040b08f70556ac",
+        "d0553135d5d1766324e09db0a7262942",
+        "ff6d24ce2a0b92f7e8923bd4c0327ed1",
+        "ddb43ae0f63b1ed93b0d38daaa5a4122",
+        "90cdd2274951d3fe70d7e19350c23228"
+      ]
+    },
+    "{city}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Nagpur",
+        "Kolkata",
+        "Gangtok",
+        "Guwahati",
+        "Surat"
+      ]
+    },
+    "{country}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "in"
+      ]
+    },
+    "{country_subdivision}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Maharashtra",
+        "West Bengal",
+        "Kerala",
+        "Sikkim",
+        "Uttar Pradesh"
+      ]
+    },
+    "{device_name}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "NordCE35G",
+        "T3",
+        "9i",
+        "PocoX6Pro5G",
+        "Neo10R"
+      ]
+    },
+    "{device_type}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "phone"
+      ]
+    },
+    "{environment}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "production"
+      ]
+    },
+    "{event_cost_id}": {
+      "type": "string",
+      "non_empty_rows": 40,
+      "sample_values": [
+        "0103086481ddc80433800830783f6a06f64b87cfb23b966a0b358fccc929071ffabf",
+        "0103086481ddc80433800830783f6a06f0eedbb9ced9c6c700201e040b08f70556ac",
+        "0103086481ddc80433800830783f6a06f469adcce685e4abc5274e30dcd73f07ba22",
+        "0103086481ddc80433800830783f6a06f5d9400a0d41c7bfce7454336289ff3f8959",
+        "0103086481ddc80433801627b15d6a06f5fc07c67558dc37d9756d8efca51d72521c"
+      ]
+    },
+    "{event_name}": {
+      "type": "string",
+      "non_empty_rows": 40,
+      "sample_values": [
+        "arena_game_started",
+        "Team_create",
+        "repeat_signup_complete_number",
+        "app_open",
+        "new_signup_complete_number"
+      ]
+    },
+    "{event}": {
+      "type": "string",
+      "non_empty_rows": 40,
+      "sample_values": [
+        "2e421z",
+        "sp10mv",
+        "av1dqx",
+        "65atlp",
+        "29su2n"
+      ]
+    },
+    "{lifetime_session_count}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "9",
+        "42",
+        "32",
+        "13",
+        "67"
+      ]
+    },
+    "{gps_adid}": {
+      "type": "string",
+      "non_empty_rows": 39,
+      "sample_values": [
+        "290cc7a2-2a22-4f10-9595-cb8b47950f08",
+        "a56a0ad6-ec42-43b8-8aea-cfa1c5b589d2",
+        "9bc23b9b-2200-4583-91f8-0d5595117d45",
+        "e8e7d6bd-f0ff-4bf0-bc05-9e075a984a9f",
+        "90f0876d-c922-44df-a629-54a1d3c233ea"
+      ]
+    },
+    "{gps_adid_md5}": {
+      "type": "string",
+      "non_empty_rows": 39,
+      "sample_values": [
+        "bb6925492aad8ab7a7041c8d4b0eb882",
+        "e865b4ec7e5ced6c436589c48404974a",
+        "ff0a2f2faa5b46d40a870d63fd5da05e",
+        "118062296a1db916c26d4d7f312cee1a",
+        "6f01a78c4b793c8e6185b73d6df9d754"
+      ]
+    },
+    "{idfa||gps_adid}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "290cc7a2-2a22-4f10-9595-cb8b47950f08",
+        "a56a0ad6-ec42-43b8-8aea-cfa1c5b589d2",
+        "9bc23b9b-2200-4583-91f8-0d5595117d45",
+        "e8e7d6bd-f0ff-4bf0-bc05-9e075a984a9f",
+        "90f0876d-c922-44df-a629-54a1d3c233ea"
+      ]
+    },
+    "{idfa||gps_adid||fire_adid}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "290cc7a2-2a22-4f10-9595-cb8b47950f08",
+        "a56a0ad6-ec42-43b8-8aea-cfa1c5b589d2",
+        "9bc23b9b-2200-4583-91f8-0d5595117d45",
+        "e8e7d6bd-f0ff-4bf0-bc05-9e075a984a9f",
+        "90f0876d-c922-44df-a629-54a1d3c233ea"
+      ]
+    },
+    "{ip_address}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "152.59.35.56",
+        "152.57.13.174",
+        "47.9.91.167",
+        "106.205.156.16",
+        "152.56.6.182"
+      ]
+    },
+    "{is_default_tracker}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_imported}": {
+      "type": "integer",
+      "non_empty_rows": 40,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_probabilistic}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{is_reattributed}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{isp}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Syynex Broadband Private",
+        "Airtel",
+        "Airtel Broadband",
+        "Jio"
+      ]
+    },
+    "{language}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "en"
+      ]
+    },
+    "{mcc}": {
+      "type": "integer",
+      "non_empty_rows": 32,
+      "sample_values": [
+        "404",
+        "405"
+      ]
+    },
+    "{mnc}": {
+      "type": "integer",
+      "non_empty_rows": 32,
+      "sample_values": [
+        "871",
+        "857",
+        "05",
+        "855",
+        "840"
+      ]
+    },
+    "{nonce}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "2bta9mn9k",
+        "5hd64lv14",
+        "50vxzcvhv",
+        "18fhrpxl0",
+        "ouudtze1d"
+      ]
+    },
+    "{os_name}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "ios",
+        "android"
+      ]
+    },
+    "{os_version}": {
+      "type": "float",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "26.2",
+        "13",
+        "12",
+        "14",
+        "16"
+      ]
+    },
+    "{postal_code}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "302012",
+        "431001",
+        "250002",
+        "737101",
+        "226004"
+      ]
+    },
+    "{push_token}": {
+      "type": "string",
+      "non_empty_rows": 40,
+      "sample_values": [
+        "eyv46_ydSZSRZE7BqXw2UJ:APA91bGNjT6DPRTJpq28OslOfYnRMhzQnpf2mP2NK11whiZ7F7TRA_oNaHDkpDQ13qWfXNYxJ8RWy1mcIrb8znf9NBfgtsnGfuJtPXvW3Y2yCzFbabZgXnY",
+        "d1z3ZVt9TwiJrS_C3P3fSU:APA91bH0WNv6QiVp8VFDo8n_jKH9g_mtPMB9TcXLPo-jU1af07YvWOhH49ci_trlHLGo9ku8PP8ogFODfXh0YqMKwuwFWubIqChZbNIqdEd9mMnl2JAfL-s",
+        "fYoDk0s4QpimGswn1ZX2I-:APA91bFnrTNjMeahJxtE-t-Lks1Lh5bVyLhhqRqJaUsID21OslQZe9ZiBMghVyQEp2pGUf8bYJIcfuw_Bt79WUbNU8INj-URzuojAKhKhWCp_q7GHeSUdGo",
+        "eo8YXrlLRWWLDkYMiWLqlH:APA91bEpf9W5myDn4YAsgYZ6m1ekbpbGCrzFw7wS1Pn36nyIUU5QniwQyzRV9NxXbOZCXw9ieV8N-PX06FCjsURA65Q8Kje39nPUqN1WYLdobNzcogmv22s",
+        "fPb58ZM7R1uugVtiAess9D:APA91bHu-dNKaiD2jg88OROM6AjAnDjpHyx7-FBOQhc-3F3GJvYp0pjMBLjM5UgK2DNkiFT-ri_zn7d1dBUr0xVRJcc9qLswPpqBjM8Gcw5VcxkDAmtnQpY"
+      ]
+    },
+    "{random_user_id}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "92f43f9168ffb507efc233af8dbbbf657097e2fe",
+        "78bd04266a5e169df2dbb058ebc43cf3445114fe",
+        "632c461d2a2c395847d58f6b2ef96a49e8e5e508",
+        "8a2ccb016cbe6b0277e69a16fd34a830f3fab3dd",
+        "71003113b33656d2bdd25b8833a83898abe5893c"
+      ]
+    },
+    "{reftag}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "o4Y2GAkZyRn2Q",
+        "o6220ODb2zlW7",
+        "olClx7a67IZEA",
+        "oxzXr1wH6StDs",
+        "oAWFdsTwxlbpJ"
+      ]
+    },
+    "{region}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "in",
+        "gb",
+        "us"
+      ]
+    },
+    "{sdk_version}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "flutter5.6.0@ios5.6.0",
+        "flutter5.6.0@android5.6.0"
+      ]
+    },
+    "{session_count}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "42",
+        "20",
+        "32",
+        "43",
+        "19"
+      ]
+    },
+    "{third_party_sharing_disabled}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{time_spent}": {
+      "type": "integer",
+      "non_empty_rows": 40,
+      "sample_values": [
+        "586",
+        "120",
+        "133",
+        "179",
+        "1250"
+      ]
+    },
+    "{timezone}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "UTC+0530"
+      ]
+    },
+    "{tracking_enabled}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "1"
+      ]
+    },
+    "{tracking_limited}": {
+      "type": "integer",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{user_agent}": {
+      "type": "string",
+      "non_empty_rows": 41,
+      "sample_values": [
+        "Dalvik/2.1.0 (Linux; U; Android 16; RMX3867 Build/BP2A.250605.015)",
+        "Dalvik/2.1.0 (Linux; U; Android 14; CPH2381 Build/UKQ1.230924.001)",
+        "Dalvik/2.1.0 (Linux; U; Android 16; moto g86 power 5G Build/W1VNS36H.60-82-1)",
+        "Dalvik/2.1.0 (Linux; U; Android 12; RMX2151 Build/SP1A.210812.016)",
+        "Dalvik/2.1.0 (Linux; U; Android 16; I2405 Build/BP2A.250605.031.A3_V000L1)"
+      ]
+    },
+    "{referrer}": {
+      "type": "string",
+      "non_empty_rows": 10,
+      "sample_values": [
+        "utm_source=(not%20set)&utm_medium=(not%20set)",
+        "utm_source=google-play&utm_medium=organic"
+      ]
+    },
+    "{install_begin_time}": {
+      "type": "integer",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "1778841551"
+      ]
+    },
+    "{is_google_play_store_downloaded}": {
+      "type": "integer",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "1"
+      ]
+    },
+    "{is_s2s_engagement_based}": {
+      "type": "integer",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{referral_time}": {
+      "type": "integer",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "1778841547"
+      ]
+    },
+    "{store_info}": {
+      "type": "string",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "{\"from_system\":\"com.android.vending\",\"initiating_package_name\":\"com.android.vending\"}"
+      ]
+    },
+    "{store_type}": {
+      "type": "string",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "google_play"
+      ]
+    },
+    "{store_verification_result_app_store}": {
+      "type": "string",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "passed"
+      ]
+    },
+    "{store_verification_result_referrer_api}": {
+      "type": "string",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "passed"
+      ]
+    },
+    "{is_redownload}": {
+      "type": "integer",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "0"
+      ]
+    },
+    "{reftags}": {
+      "type": "string",
+      "non_empty_rows": 1,
+      "sample_values": [
+        "[]"
+      ]
+    },
+    "{att_status}": {
+      "type": "integer",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "3"
+      ]
+    },
+    "{device_model}": {
+      "type": "string",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "iPhone14,5"
+      ]
+    },
+    "{idfa}": {
+      "type": "string",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "5CBBC7D7-0577-46E7-AE53-25E3BB40FB96"
+      ]
+    },
+    "{idfa_md5}": {
+      "type": "string",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "pvOA2zzLQRYGs8ProB4Lmg"
+      ]
+    },
+    "{idfa_md5_hex}": {
+      "type": "string",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "a6f380db3ccb411606b3c3eba01e0b9a"
+      ]
+    },
+    "{idfa||android_id}": {
+      "type": "string",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "5CBBC7D7-0577-46E7-AE53-25E3BB40FB96"
+      ]
+    },
+    "{idfa_upper}": {
+      "type": "string",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "5CBBC7D7-0577-46E7-AE53-25E3BB40FB96"
+      ]
+    },
+    "{idfv}": {
+      "type": "string",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "7CE50A96-7141-428F-B013-F0C264261FE5"
+      ]
+    },
+    "{idfv||google_app_set_id}": {
+      "type": "string",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "7CE50A96-7141-428F-B013-F0C264261FE5"
+      ]
+    },
+    "{system_boot_time}": {
+      "type": "integer",
+      "non_empty_rows": 2,
+      "sample_values": [
+        "1775846277"
+      ]
+    }
+  }
+}

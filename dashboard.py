@@ -448,17 +448,16 @@ with st.sidebar:
         [b for b in all_blobs if blob_date(b) in selected_dates]
         if selected_dates else all_blobs
     )
-    st.caption(f"{len(filtered_blobs)} blobs match")
-    max_blobs = st.slider("Max blobs to load", 10, len(all_blobs), min(50, len(all_blobs)))
-    filtered_blobs = filtered_blobs[:max_blobs]
-    st.divider()
-    st.caption(f"Total blobs in container: {len(all_blobs)}")
-    if st.button("Clear data cache", help="Delete all cached parquet files and re-download on next load"):
-        for f in CACHE_DIR.glob("*.parquet"):
-            f.unlink()
-        load_data.clear()
+
+    n_cached = sum(1 for b in filtered_blobs if blob_cache_path(b).exists())
+    n_new    = len(filtered_blobs) - n_cached
+    st.caption(f"Total in container: {len(all_blobs)} blobs")
+    st.caption(f"Selected: {len(filtered_blobs)} · Cached: {n_cached} · New: {n_new}")
+
+    if st.button("Fetch latest", type="primary", use_container_width=True):
         list_blob_names.clear()
-        st.success("Cache cleared — reload the page to re-fetch.")
+        load_data.clear()
+        st.rerun()
 
 if not filtered_blobs:
     st.warning("No blobs match the selected filters.")
