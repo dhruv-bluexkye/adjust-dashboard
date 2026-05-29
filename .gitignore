@@ -1,0 +1,18 @@
+# Streamlit secrets — NEVER commit this
+.streamlit/secrets.toml
+
+# Local blob cache — large binary files, no need to commit
+blob_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
